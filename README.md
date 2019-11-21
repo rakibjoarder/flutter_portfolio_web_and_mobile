@@ -10,9 +10,9 @@ This website is built using Flutter SDK <3.
 Screenshot
 </p>
 <p align="center">
-  <img src="https://i.ibb.co/hBfsvXy/1.png" width="350"/>
-  <img src="https://i.ibb.co/YDt64G1/2.png" width="350"/>
-  <img src="https://i.ibb.co/yYZ60Cs/3.png" width="350"/>
-  <img src=https://i.ibb.co/NnPXtRT/4.png" width="350"/>
-  <img src="https://i.ibb.co/kHF2jZ1/5.png" width="350"/>
+  <img src="https://i.ibb.co/hBfsvXy/1.png"/>
+  <img src="https://i.ibb.co/YDt64G1/2.png" />
+  <img src="https://i.ibb.co/yYZ60Cs/3.png" />
+  <img src=https://i.ibb.co/NnPXtRT/4.png" />
+  <img src="https://i.ibb.co/kHF2jZ1/5.png" />
 </p>
