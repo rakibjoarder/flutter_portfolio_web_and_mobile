@@ -18,9 +18,10 @@ class WorkExperienceStudyDesktop extends StatelessWidget {
                 Text('WORK EXPERIENCE',style: TextStyle(fontSize: 36,fontWeight: FontWeight.bold),),
                 SizedBox(height: 20,),
                 Container(
-                  height: 400,
+                  height: 420,
                   padding: EdgeInsets.only(left: 50),
-                  child: Center(child: Timeline(children:  [
+                  child: Center(child: Timeline(children: [
+                    timelineItem('Software Engineer (Flutter) ','Nagad','01/2020 - Present'),
                     timelineItem('Software Engineer','Cloudware Systems','08/2017 - 11/2018'),
                     timelineItem('Flutter Developer','Fiverr','09/2018 - Present'),
                   ], position: TimelinePosition.Left),),
@@ -35,7 +36,7 @@ class WorkExperienceStudyDesktop extends StatelessWidget {
                 Text('EDUCATION',style: TextStyle(fontSize: 36,fontWeight: FontWeight.bold),),
                 SizedBox(height: 20,),
                 Container(
-                  height: 400,
+                  height: 420,
                   padding: EdgeInsets.only(left: 20),
                   child:Timeline(children:  [
                     timelineItem('B.Sc. in Cse','Ahsanullah University of Science & Technology','2013 - 2017'),

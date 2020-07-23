@@ -3,7 +3,6 @@ import 'package:flutter_portfolio_web/locator.dart';
 import 'package:flutter_portfolio_web/routing/routes.dart';
 import 'package:flutter_portfolio_web/services/navigation_service.dart';
 import 'package:flutter_portfolio_web/views/navigation_bar.dart';
-import 'package:flutter_portfolio_web/widgets/widgets.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:flutter_portfolio_web/routing/route_names.dart';
 void main(){

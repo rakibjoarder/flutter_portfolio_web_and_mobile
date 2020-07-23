@@ -51,8 +51,7 @@ class ProfilePicture extends StatelessWidget {
                     shape: BoxShape.circle,
                     image: new DecorationImage(
                         fit: BoxFit.cover,
-                        image: new NetworkImage(
-                            "https://scontent.fdac31-1.fna.fbcdn.net/v/t1.0-9/p720x720/77342562_2524521660976635_757321906742362112_o.jpg?_nc_cat=109&_nc_oc=AQlk5gPuQp1O46txpRU2c_3nKJgDuHJsLvfb5l_1DGm9PWR71pj44rfBi18natQwp7w&_nc_ht=scontent.fdac31-1.fna&oh=28382fb00fc5b92e91cf1246ea192ac9&oe=5E545AD9")
+                        image: new NetworkImage("https://i.ibb.co/fN8gMSj/87958902-2784926471602818-2574408310664986624-o.jpg")
                     )
                 )
             ),

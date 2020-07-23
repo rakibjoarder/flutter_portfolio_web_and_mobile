@@ -14,7 +14,7 @@ class NavigationService {
     }
   }
 
-  bool goBack() {
+   goBack() {
     return  Navigator.of(scaffoldKey.currentContext).pop();
   }
 

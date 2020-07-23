@@ -16,11 +16,12 @@ class WorkExperienceStudyMobile extends StatelessWidget {
             children: <Widget>[
               Text('WORK EXPERIENCE',style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),),
               Container(
-                height: 200,
+                height: 310,
                 width: MediaQuery.of(context).size.width-80,
                 child: Center(child: Timeline(children:  [
+                  timelineItem('Software Engineer (Flutter) ','Nagad','01/2020 - Present'),
                   timelineItem('Software Engineer','Cloudware Systems','08/2017 - 11/2018'),
-                  timelineItem('Software Engineer','Fiverr','09/2018 - Present'),
+                  timelineItem('Flutter Developer','Fiverr','09/2018 - Present'),
                 ], position: TimelinePosition.Left),),
               ),
             ],
@@ -29,7 +30,7 @@ class WorkExperienceStudyMobile extends StatelessWidget {
             children: <Widget>[
               Text('EDUCATION',style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),),
               Container(
-                height: 300,
+                height: 310,
                 width: MediaQuery.of(context).size.width-80,
                 child:Timeline(children:  [
                   timelineItem('B.Sc. in Cse','Ahsanullah University of Science & Technology','2013 - 2017'),
