@@ -1,11 +1,12 @@
+import 'dart:html' as html;
+
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio_web/views/footer/footer_view.dart';
 import 'package:flutter_portfolio_web/views/home/home_view.dart';
 import 'package:flutter_portfolio_web/views/projects/project_view.dart';
 import 'package:flutter_portfolio_web/views/skills/skills.dart';
 import 'package:flutter_portfolio_web/views/workExperienceStudy/work_study.dart';
-import 'package:url_launcher/url_launcher.dart';
-import 'dart:html' as html;
+
 class HomeContentMobile extends StatelessWidget {
   const HomeContentMobile({Key key}) : super(key: key);
   @override
@@ -15,17 +16,23 @@ class HomeContentMobile extends StatelessWidget {
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          SizedBox(height: 30,),
+          SizedBox(
+            height: 30,
+          ),
           ProfilePicture(),
-          SizedBox(height: 10,),
+          SizedBox(
+            height: 10,
+          ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal:6.0),
+            padding: const EdgeInsets.symmetric(horizontal: 6.0),
             child: AboutMe(),
           ),
           CallToAction('Resume'),
-          SizedBox(height: 20,),
+          SizedBox(
+            height: 20,
+          ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal:6.0),
+            padding: const EdgeInsets.symmetric(horizontal: 6.0),
             child: Skills(),
           ),
           WorkExperienceStudy(),
@@ -42,7 +49,7 @@ class CallToActionMobile extends StatelessWidget {
   const CallToActionMobile(this.title);
   @override
   Widget build(BuildContext context) {
-    return  RaisedButton(
+    return RaisedButton(
       shape: RoundedRectangleBorder(
         borderRadius: new BorderRadius.circular(5.0),
       ),
@@ -57,7 +64,7 @@ class CallToActionMobile extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 30),
       color: Colors.greenAccent.shade700,
       elevation: 1,
-      onPressed: (){
+      onPressed: () {
         _launchURL();
       },
     );
@@ -65,7 +72,7 @@ class CallToActionMobile extends StatelessWidget {
 }
 
 _launchURL() async {
-  html.window.open("https://drive.google.com/file/d/1VZbUR0wXglfMZSUvGqjnYmDlVnI0cfdX/view?usp=sharing",'_blank');
+  html.window.open(
+      "https://drive.google.com/file/d/1Gj2_k6MNaNlRauooaRp7XmWOGgZ6FShi/view?usp=sharing",
+      '_blank');
 }
-
-
