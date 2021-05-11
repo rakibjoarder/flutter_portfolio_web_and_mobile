@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_portfolio_web/utils/screen_aware_size.dart';
 import 'package:timeline_list/timeline.dart';
 import 'package:timeline_list/timeline_model.dart';
 
@@ -24,17 +25,22 @@ class WorkExperienceStudyDesktop extends StatelessWidget {
                   height: 20,
                 ),
                 Container(
-                  height: 420,
+                  height: screenAwareSize(400, context),
                   padding: EdgeInsets.only(left: 50),
                   child: Center(
-                    child: Timeline(children: [
-                      timelineItem('Software Engineer (Flutter) ', 'Nagad',
-                          '01/2020 - 08/2020'),
-                      timelineItem('Software Engineer', 'Cloudware Systems',
-                          '08/2017 - 11/2018'),
-                      timelineItem(
-                          'Flutter Developer', 'Fiverr', '09/2018 - Present'),
-                    ], position: TimelinePosition.Left),
+                    child: Timeline(
+                        physics: NeverScrollableScrollPhysics(),
+                        children: [
+                          timelineItem('Software Engineer (Flutter) ', 'Nagad',
+                              '01/2020 - 08/2020'),
+                          timelineItem('Flutter Developer', 'DroidApp BD',
+                              '08/2018 - Present'),
+                          timelineItem('Android Developer', 'DroidApp BD',
+                              '03/2015 - 07/2018'),
+                          timelineItem('Software Engineer', 'Cloudware Systems',
+                              '08/2017 - 11/2018'),
+                        ],
+                        position: TimelinePosition.Left),
                   ),
                 ),
               ],
@@ -54,18 +60,23 @@ class WorkExperienceStudyDesktop extends StatelessWidget {
                   height: 20,
                 ),
                 Container(
-                  height: 420,
+                  height: screenAwareSize(400, context),
                   padding: EdgeInsets.only(left: 20),
-                  child: Timeline(children: [
-                    timelineItem(
-                        'B.Sc. in Cse',
-                        'Ahsanullah University of Science & Technology',
-                        '2013 - 2017'),
-                    timelineItem('HSC',
-                        'Govt. Majid Memorial City College, Khulna', '2012'),
-                    timelineItem(
-                        'SSC', 'Khulna Zilla School, Khulna, Khulna', '2010'),
-                  ], position: TimelinePosition.Left),
+                  child: Timeline(
+                      physics: NeverScrollableScrollPhysics(),
+                      children: [
+                        timelineItem(
+                            'B.Sc. in Cse',
+                            'Ahsanullah University of Science & Technology',
+                            '2013 - 2017'),
+                        timelineItem(
+                            'HSC',
+                            'Govt. Majid Memorial City College, Khulna',
+                            '2012'),
+                        timelineItem('SSC',
+                            'Khulna Zilla School, Khulna, Khulna', '2010'),
+                      ],
+                      position: TimelinePosition.Left),
                 ),
               ],
             ),

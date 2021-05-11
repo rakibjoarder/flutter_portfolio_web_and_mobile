@@ -148,23 +148,49 @@ class ProjectViewMobile extends StatelessWidget {
                 Container(
                   height: 15,
                 ),
-                RaisedButton(
-                  child: Text(
-                    'Google Play',
-                    style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white),
-                  ),
-                  color: Colors.green.shade500,
-                  padding: EdgeInsets.symmetric(horizontal: 40),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: new BorderRadius.circular(25.0),
-                  ),
-                  onPressed: () {
-                    launchURL(
-                        'https://play.google.com/store/apps/dev?id=8748058035662432930');
-                  },
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: <Widget>[
+                    RaisedButton(
+                      child: Text(
+                        'App Store',
+                        style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
+                      ),
+                      color: Colors.green.shade500,
+                      padding: EdgeInsets.symmetric(horizontal: 40),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: new BorderRadius.circular(25.0),
+                      ),
+                      onPressed: () {
+                        launchURL('https://apps.apple.com/us/app/id1490618521');
+                      },
+                    ),
+                    SizedBox(
+                      width: 30,
+                    ),
+                    RaisedButton(
+                      child: Text(
+                        'Google Play',
+                        style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
+                      ),
+                      color: Colors.green.shade500,
+                      padding: EdgeInsets.symmetric(horizontal: 40),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: new BorderRadius.circular(25.0),
+                      ),
+                      onPressed: () {
+                        launchURL(
+                            'https://play.google.com/store/apps/dev?id=8748058035662432930');
+                      },
+                    )
+                  ],
                 )
               ],
             ),

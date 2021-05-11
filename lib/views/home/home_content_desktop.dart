@@ -86,6 +86,6 @@ class CallToActionTabletDesktop extends StatelessWidget {
 
 _launchURL() async {
   html.window.open(
-      "https://drive.google.com/file/d/1Gj2_k6MNaNlRauooaRp7XmWOGgZ6FShi/view?usp=sharing",
+      "https://drive.google.com/file/d/1DG9PHqOdcSTxamiiRFysvh-4nipYgkKs/view?usp=sharing",
       '_blank');
 }
