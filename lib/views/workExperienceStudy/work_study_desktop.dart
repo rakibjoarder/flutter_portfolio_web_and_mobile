@@ -25,18 +25,20 @@ class WorkExperienceStudyDesktop extends StatelessWidget {
                   height: 20,
                 ),
                 Container(
-                  height: screenAwareSize(400, context),
+                  height: screenAwareSize(450, context),
                   padding: EdgeInsets.only(left: 50),
                   child: Center(
                     child: Timeline(
                         physics: NeverScrollableScrollPhysics(),
                         children: [
+                          timelineItem('Senior Software Engineer (Flutter) ',
+                              'Dnet', '06/2020 - Present'),
                           timelineItem('Software Engineer (Flutter) ', 'Nagad',
                               '01/2020 - 08/2020'),
                           timelineItem('Flutter Developer', 'DroidApp BD',
                               '08/2018 - Present'),
                           timelineItem('Android Developer', 'DroidApp BD',
-                              '03/2015 - 07/2018'),
+                              '03/2017 - 07/2018'),
                           timelineItem('Software Engineer', 'Cloudware Systems',
                               '08/2017 - 11/2018'),
                         ],
@@ -91,10 +93,10 @@ class WorkExperienceStudyDesktop extends StatelessWidget {
       Column(
         children: <Widget>[
           ListTile(
-            contentPadding: EdgeInsets.symmetric(vertical: 20),
+            contentPadding: EdgeInsets.symmetric(vertical: 10),
             title: Text(
               title,
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
             ),
             subtitle: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -107,7 +109,7 @@ class WorkExperienceStudyDesktop extends StatelessWidget {
                   style: TextStyle(
                       fontWeight: FontWeight.w400,
                       color: Colors.black87,
-                      fontSize: 19),
+                      fontSize: 16),
                 ),
                 SizedBox(
                   height: 2,
@@ -117,7 +119,7 @@ class WorkExperienceStudyDesktop extends StatelessWidget {
                   style: TextStyle(
                       fontWeight: FontWeight.w400,
                       color: Colors.black87,
-                      fontSize: 19),
+                      fontSize: 16),
                 ),
               ],
             ),

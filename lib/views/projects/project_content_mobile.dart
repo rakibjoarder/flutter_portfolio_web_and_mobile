@@ -18,80 +18,101 @@ class ProjectViewMobile extends StatelessWidget {
             ),
           ),
           AppsRow(
-              tag: 'Swap',
-              link:
-                  'https://play.google.com/store/apps/details?id=com.swap.swap_ecommerce',
-              buttonText: 'GET IT ON GOOGLE PLAY',
-              tag1: 'EzzyMart',
-              link1:
-                  'https://play.google.com/store/apps/details?id=com.droidappbd.ebazar',
-              buttonText1: 'GET IT ON GOOGLE PLAY',
-              tag2: 'Big Bazaar',
-              link2:
-                  'https://play.google.com/store/apps/details?id=com.grocery.bigbazaar',
-              buttonText2: 'GET IT ON GOOGLE PLAY',
-              image:
-                  'https://lh3.googleusercontent.com/5CXhhqoJyX3YirLSzQI59CL1ln9TP7ZIkJdKB9ZfR7atqBJyvbRxO2VkILXABQiOnEQ=s180',
-              image1: 'https://i.ibb.co/5GvBL1K/playstoreicon.png',
-              image2:
-                  'https://lh3.googleusercontent.com/O6mIbOWvVkVT7k9jDjiDD_t4oVjonVPyi4x5siahggNZgNbxdCXxYkB82qdV-yE4eFTq=s180',
-              tag3: 'EzzyMart Partner',
-              link3:
-                  'https://play.google.com/store/apps/details?id=com.droidappbd.ebazar_partner',
-              buttonText3: 'GET IT ON GOOGLE PLAY',
-              image3: 'https://i.ibb.co/tpgNjYq/ezzymartapplogo.png'),
-          AppsRow(
             tag: 'DroidPass Password Manager',
             link:
                 'https://play.google.com/store/apps/details?id=com.passwordmanager.droidpass&hl=bn',
             buttonText: 'GET IT ON GOOGLE PLAY',
-            tag1: 'Password Manager',
+            image: 'https://i.ibb.co/S5hZJzs/appstore-logo.png',
+            tag1: 'Swap',
             link1:
-                'https://play.google.com/store/apps/details?id=com.aust.rakib.passwordmanager',
+                'https://play.google.com/store/apps/details?id=com.swap.swap_ecommerce',
             buttonText1: 'GET IT ON GOOGLE PLAY',
-            tag2: 'Expense Manager',
+            tag2: 'EzzyMart',
             link2:
-                'https://play.google.com/store/apps/details?id=com.aust.rakib.expensemanager',
+                'https://play.google.com/store/apps/details?id=com.droidappbd.ebazar',
             buttonText2: 'GET IT ON GOOGLE PLAY',
-            image:
-                'https://lh3.googleusercontent.com/S5x2VbQzTkI_SIKcextZjTPOXjA0Se546SRovYXbCJvILbFgJ4_EiuqRLYmc4fEt3A=s180-rw',
+            // tag2: 'Adolescent Health',
+            // link2:
+            //     'https://play.google.com/store/apps/details?id=com.dnet.unicef.adolescent&hl=en&gl=US',
+            // buttonText2: 'GET IT ON GOOGLE PLAY',
+            // image2:
+            // 'https://i.ibb.co/HdPP7r7/Screenshot-2021-08-15-at-3-08-29-PM.png',
             image1:
-                'https://lh3.googleusercontent.com/ELEyq77oNSv2Sc-yoMNMZKF2yy2eHoG1mZ24V7BG7qcT3pYyQ_bC6yy_ku8rSaFmT6Qj=s180-rw',
-            image2:
-                'https://lh3.googleusercontent.com/hAxx_Jl76YRPTcyRv3fLyBbHi5Ev3Wl-oPZh06ZNj6_bX_dkRMnu82Qhbf91fZRFg6o=s180-rw',
-            tag3: 'PDF Reader',
+                'https://lh3.googleusercontent.com/5CXhhqoJyX3YirLSzQI59CL1ln9TP7ZIkJdKB9ZfR7atqBJyvbRxO2VkILXABQiOnEQ=s180',
+            image2: 'https://i.ibb.co/5GvBL1K/playstoreicon.png',
+
+            tag3: 'EzzyMart Partner',
             link3:
-                'https://play.google.com/store/apps/details?id=com.aust.rakib.pdfreader',
+                'https://play.google.com/store/apps/details?id=com.droidappbd.ebazar_partner',
             buttonText3: 'GET IT ON GOOGLE PLAY',
-            image3:
-                'https://lh3.googleusercontent.com/BZBdoPGFdmn6qDWrPBkvc7q-A43Tn1vOcqGxx03xk_k43dQc2mBvCjRUk0q09FVh-w=s180-rw',
+            image3: 'https://i.ibb.co/tpgNjYq/ezzymartapplogo.png',
           ),
           AppsRow(
-            tag: 'Password Manager Pro',
+            tag: 'Grolister: Shopping List Maker',
             link:
-                'https://play.google.com/store/apps/details?id=com.aust.rakib.passwordmanager.pro',
-            buttonText: 'GET IT ON GOOGLE PLAY',
-            image:
-                'https://lh3.googleusercontent.com/wZ97qUpr72dYowIFsB7vQowaVHfu91chxZi62OyD5GFQI_gTkp37LJl9UdZZ5UVGUw=s180-rw',
-            image2:
-                'https://lh3.googleusercontent.com/MWEXrjruX7msEmTO4KxOqQq-MrVwNhLqMAS4s8boP2G-rBhhhdNyw8G3eKZ_Dyjk9d4=s180-rw',
-            tag1: 'মাহে রমজান ২০১৯',
+                'https://apps.apple.com/us/app/grolister-shopping-list-maker/id1578112589#?platform=iphone',
+            buttonText: 'GET IT ON APP STORE',
+            image: 'https://i.ibb.co/Vtx7Qs2/3.png',
+            tag1: 'Password Manager Pro',
             link1:
-                'https://play.google.com/store/apps/details?id=com.aust.rakib.maheramadan2018',
+                'https://play.google.com/store/apps/details?id=com.aust.rakib.passwordmanager.pro',
             buttonText1: 'GET IT ON GOOGLE PLAY',
-            tag2: 'My Wallet',
+            image1: 'https://i.ibb.co/wzH2Jgc/applogo.png',
+
+            tag2: 'Mahe Ramadan',
             link2:
-                'https://play.google.com/store/apps/details?id=com.aust.mywallet',
-            buttonText2: 'GET IT ON GOOGLE ',
-            image1:
-                'https://lh3.googleusercontent.com/5ctdLZQ7EjM_QiY-rm1ibxy_I_ygaujl9CcDyAVVuyZ8ad3qa4ZJEBWyUgc50n3kUsma=s180-rw',
-            image3:
-                'https://lh3.googleusercontent.com/YTAkoYcPQk4WuqCIB45BF5hlFEugQSGISp2dmyosojsL9b7y-UIdoTuR3TaS2O7Sjg=s180-rw',
-            tag3: 'HD Wallpapers',
+                'https://play.google.com/store/apps/details?id=com.aust.rakib.maheramadan2018',
+            buttonText2: 'GET IT ON GOOGLE PLAY',
+            image2: 'https://i.ibb.co/7nhGJ5Q/Mahe-Ramzan-Logo-final.png',
+
+            tag3: 'QR Code & Barcode scanner',
             link3:
-                'https://play.google.com/store/apps/details?id=com.rakib.hdwallpapers',
+                'https://play.google.com/store/apps/details?id=com.scanner.qrscanner.qr_barcode_scanner',
             buttonText3: 'GET IT ON GOOGLE PLAY',
+            image3: 'https://i.ibb.co/PDPjpqr/Icon-App-1024x1024-1x.png',
+
+            // tag2: 'Expense Manager',
+            // link2:
+            //     'https://play.google.com/store/apps/details?id=com.aust.rakib.expensemanager',
+            // buttonText2: 'GET IT ON GOOGLE PLAY',
+
+            // image1:
+            //     'https://lh3.googleusercontent.com/ELEyq77oNSv2Sc-yoMNMZKF2yy2eHoG1mZ24V7BG7qcT3pYyQ_bC6yy_ku8rSaFmT6Qj=s180-rw',
+            // image2:
+            //     'https://lh3.googleusercontent.com/hAxx_Jl76YRPTcyRv3fLyBbHi5Ev3Wl-oPZh06ZNj6_bX_dkRMnu82Qhbf91fZRFg6o=s180-rw',
+            // tag3: 'PDF Reader',
+            // link3:
+            //     'https://play.google.com/store/apps/details?id=com.aust.rakib.pdfreader',
+            // buttonText3: 'GET IT ON GOOGLE PLAY',
+            // image3:
+            //     'https://lh3.googleusercontent.com/BZBdoPGFdmn6qDWrPBkvc7q-A43Tn1vOcqGxx03xk_k43dQc2mBvCjRUk0q09FVh-w=s180-rw',
           ),
+          AppsRow(
+              // tag: 'Password Manager Pro',
+              // playstoreLink:
+              //     'https://play.google.com/store/apps/details?id=com.aust.rakib.passwordmanager.pro',
+              // buttonText: 'GET IT ON GOOGLE PLAY',
+              // image:
+              //     'https://lh3.googleusercontent.com/wZ97qUpr72dYowIFsB7vQowaVHfu91chxZi62OyD5GFQI_gTkp37LJl9UdZZ5UVGUw=s180-rw',
+              // image2:
+              //     'https://lh3.googleusercontent.com/MWEXrjruX7msEmTO4KxOqQq-MrVwNhLqMAS4s8boP2G-rBhhhdNyw8G3eKZ_Dyjk9d4=s180-rw',
+              // tag1: 'মাহে রমজান ২০২১',
+              // link1:
+              //     'https://play.google.com/store/apps/details?id=com.aust.rakib.maheramadan2018',
+              // buttonText1: 'GET IT ON GOOGLE PLAY',
+              // tag2: 'My Wallet',
+              // link2:
+              //     'https://play.google.com/store/apps/details?id=com.aust.mywallet',
+              // buttonText2: 'GET IT ON GOOGLE ',
+              // image1:
+              //     'https://lh3.googleusercontent.com/5ctdLZQ7EjM_QiY-rm1ibxy_I_ygaujl9CcDyAVVuyZ8ad3qa4ZJEBWyUgc50n3kUsma=s180-rw',
+              // image3:
+              //     'https://lh3.googleusercontent.com/YTAkoYcPQk4WuqCIB45BF5hlFEugQSGISp2dmyosojsL9b7y-UIdoTuR3TaS2O7Sjg=s180-rw',
+              // tag3: 'HD Wallpapers',
+              // link3:
+              //     'https://play.google.com/store/apps/details?id=com.rakib.hdwallpapers',
+              // buttonText3: 'GET IT ON GOOGLE PLAY',
+              ),
           Padding(
             padding: const EdgeInsets.only(bottom: 28.0, top: 28),
             child: Text(
@@ -100,12 +121,12 @@ class ProjectViewMobile extends StatelessWidget {
             ),
           ),
           AppsRow(
-            tag: 'Creative Problem Solver',
+            tag: 'Adolescent Health',
             link:
-                'https://play.google.com/store/apps/details?id=com.appcreativeps.creative_problem_solver',
+                'https://play.google.com/store/apps/details?id=com.dnet.unicef.adolescent&hl=en&gl=US',
             buttonText: 'GET IT ON GOOGLE PLAY',
             image:
-                'https://lh3.googleusercontent.com/OUxXaWUmPYFiS5GLagRzkggz2ER11hKYswqFlJpMV4o5LcWbmh65RgYCYAKr0AgmLbY=s180-rw',
+                'https://i.ibb.co/HdPP7r7/Screenshot-2021-08-15-at-3-08-29-PM.png',
             tag1: 'Japps - Giapponesi All You Can Eat',
             link1:
                 'https://play.google.com/store/apps/details?id=com.marcoaddante.japps',
@@ -118,12 +139,6 @@ class ProjectViewMobile extends StatelessWidget {
                 'https://lh3.googleusercontent.com/sbnzM50Bcl3qxE9wTxakXPLYEsgV72MC4yw7QGaLeGx48SnZM7JByVpc4hNG03BNzg=s180-rw',
             image2:
                 'https://lh3.googleusercontent.com/Zwh6Xn1BVhKbx9YVslRDv2ptxmdLS354VG77yEjUrpEM7MRnBBQcCZiXdofMbyFtCV3H=s180-rw',
-            tag3: 'হাতের মুঠোয় কাঁচা বাজার',
-            link3:
-                'https://play.google.com/store/apps/details?id=com.zamzamit.zzbazarbasic',
-            buttonText3: 'GET IT ON GOOGLE PLAY',
-            image3:
-                'https://lh3.googleusercontent.com/Ae_I-_9c-xiGJ3YuO2Hm-Ey4kzu-f8yRdhayATq9JW5PZQ8veu_kIMS6H9HJ1_N5eRw=s180-rw',
           ),
           AppsRow(
             tag: 'On-Site Soccer Analysis',
@@ -132,6 +147,18 @@ class ProjectViewMobile extends StatelessWidget {
             buttonText: 'GET IT ON GOOGLE PLAY',
             image:
                 'https://lh3.googleusercontent.com/IXvB4AVeU_ot-UuPD5_05W3RlZ2cRszoHs449wivdXgGzESoVQ6Q8Sw7ue8LriLvcRk=s180-rw',
+            tag2: 'Creative Problem Solver',
+            link2:
+                'https://play.google.com/store/apps/details?id=com.appcreativeps.creative_problem_solver',
+            buttonText2: 'GET IT ON GOOGLE PLAY',
+            image2:
+                'https://lh3.googleusercontent.com/OUxXaWUmPYFiS5GLagRzkggz2ER11hKYswqFlJpMV4o5LcWbmh65RgYCYAKr0AgmLbY=s180-rw',
+            tag3: 'হাতের মুঠোয় কাঁচা বাজার',
+            link3:
+                'https://play.google.com/store/apps/details?id=com.zamzamit.zzbazarbasic',
+            buttonText3: 'GET IT ON GOOGLE PLAY',
+            image3:
+                'https://lh3.googleusercontent.com/Ae_I-_9c-xiGJ3YuO2Hm-Ey4kzu-f8yRdhayATq9JW5PZQ8veu_kIMS6H9HJ1_N5eRw=s180-rw',
           ),
           SizedBox(
             height: 20,
@@ -166,7 +193,8 @@ class ProjectViewMobile extends StatelessWidget {
                         borderRadius: new BorderRadius.circular(25.0),
                       ),
                       onPressed: () {
-                        launchURL('https://apps.apple.com/us/app/id1490618521');
+                        launchURL(
+                            'https://apps.apple.com/us/developer/rakib-joarder/id1490618520');
                       },
                     ),
                     SizedBox(
@@ -238,8 +266,8 @@ AppsRow(
               buttonText1,
               link1,
               image1,
-              tag1 == 'EzzyMart'
-                  ? 'https://apps.apple.com/tt/app/ebazar-online-shopping-app/id1513815169'
+              tag1 == 'Swap'
+                  ? 'https://apps.apple.com/us/app/swap-bd/id1499768718'
                   : '')
           : Container(),
       tag2 != null
@@ -248,9 +276,11 @@ AppsRow(
               buttonText2,
               link2,
               image2,
-              tag2 == 'Big Bazaar'
-                  ? 'https://apps.apple.com/cn/app/big-bazaar/id1523011912?ign-mpt=uo%3D2'
-                  : '')
+              tag2 == 'EzzyMart'
+                  ? 'https://apps.apple.com/tt/app/ebazar-online-shopping-app/id1513815169#?platform=iphone'
+                  : tag2 == 'Mahe Ramadan'
+                      ? 'https://apps.apple.com/us/app/mahe-ramadan-2021/id1508990104#?platform=iphone'
+                      : '')
           : Container(),
       tag3 != null
           ? AppsItem(
@@ -259,7 +289,7 @@ AppsRow(
               link3,
               image3,
               tag3 == 'EzzyMart Partner'
-                  ? "https://apps.apple.com/tt/app/ezzymart-partner/id1528605189"
+                  ? "https://apps.apple.com/tt/app/ezzymart-partner/id1528605189#?platform=iphone"
                   : '')
           : Container()
     ],
@@ -341,6 +371,9 @@ showAlertDialog(
                 onPressed: () {
                   launchURL(link);
                 },
+              ),
+              Container(
+                height: 10,
               ),
               appStoreLink != ''
                   ? RaisedButton(
