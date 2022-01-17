@@ -22,20 +22,22 @@ class WorkExperienceStudyMobile extends StatelessWidget {
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               ),
               Container(
-                height: screenAwareSize(480, context),
+                height: screenAwareSize(420, context),
                 width: MediaQuery.of(context).size.width - 80,
                 child: Center(
                   child: Timeline(
                       physics: NeverScrollableScrollPhysics(),
                       children: [
-                        timelineItem('Senior Software Engineer (Flutter) ',
-                            'Dnet', '06/2020 - Present'),
-                        timelineItem('Software Engineer (Flutter) ', 'Nagad',
+                        timelineItem('UI/UX Software Developer ',
+                            'Everglade Solutions, Inc', '12/2021 - Present'),
+                        timelineItem('Software Engineer (Flutter) ', 'Dnet',
+                            '06/2021 - 11/2021'),
+                        timelineItem('Software Engineer (Flutter) ', 'Swap',
                             '01/2020 - 08/2020'),
-                        timelineItem('Flutter Developer', 'DroidApp BD',
-                            '08/2018 - Present'),
-                        timelineItem('Android Developer', 'DroidApp BD',
-                            '03/2017 - 07/2018'),
+                        timelineItem('Freelance Flutter Developer',
+                            'Google Play Apps', '08/2018 - Present'),
+                        timelineItem('Freelance Android Developer',
+                            'Google Play Apps', '09/2017 - 07/2018'),
                         timelineItem('Software Engineer', 'Cloudware Systems',
                             '08/2017 - 11/2018'),
                       ],
@@ -51,7 +53,7 @@ class WorkExperienceStudyMobile extends StatelessWidget {
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               ),
               Container(
-                height: screenAwareSize(370, context),
+                height: screenAwareSize(220, context),
                 width: MediaQuery.of(context).size.width - 80,
                 child: Timeline(
                     physics: NeverScrollableScrollPhysics(),

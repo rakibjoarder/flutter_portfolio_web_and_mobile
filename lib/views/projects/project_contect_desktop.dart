@@ -132,18 +132,18 @@ class ProjectViewDesktop extends StatelessWidget {
                   buttonText: 'GET IT ON GOOGLE PLAY',
                   image:
                       'https://i.ibb.co/HdPP7r7/Screenshot-2021-08-15-at-3-08-29-PM.png',
-                  tag1: 'Japps - Giapponesi All You Can Eat',
-                  link1:
-                      'https://play.google.com/store/apps/details?id=com.marcoaddante.japps',
-                  buttonText1: 'GET IT ON GOOGLE PLAY',
                   tag2: 'NetLink',
                   link2:
                       'https://play.google.com/store/apps/details?id=com.netlink.exchange',
                   buttonText2: 'GET IT ON GOOGLE ',
-                  image1:
-                      'https://lh3.googleusercontent.com/sbnzM50Bcl3qxE9wTxakXPLYEsgV72MC4yw7QGaLeGx48SnZM7JByVpc4hNG03BNzg=s180-rw',
                   image2:
                       'https://lh3.googleusercontent.com/Zwh6Xn1BVhKbx9YVslRDv2ptxmdLS354VG77yEjUrpEM7MRnBBQcCZiXdofMbyFtCV3H=s180-rw',
+                  tag3: 'FP Mentorship App',
+                  link3:
+                      'https://play.google.com/store/apps/details?id=com.pathfinder.mentor&fbclid=IwAR3MIOMW5HHqX70clkiuE2hw2qZopkl4kAWdS1R9a4HoC4Gri3eQbzZJ4t8',
+                  buttonText3: 'GET IT ON GOOGLE PLAY',
+                  image3:
+                      'https://play-lh.googleusercontent.com/KnPXjye8lHp-5zBJfOC1eNTdVE8c-P52AesTgq5W4d6DzBLQcFlZpZmr-qmRoIUdnfpu=s180-rw',
                 ),
                 AppsRow(
                   tag: 'On-Site Soccer Analysis',

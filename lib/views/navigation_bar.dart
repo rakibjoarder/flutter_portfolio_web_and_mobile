@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio_web/locator.dart';
+import 'package:flutter_portfolio_web/routing/route_names.dart';
 import 'package:flutter_portfolio_web/services/navigation_service.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:flutter_portfolio_web/routing/route_names.dart';
+
 class NavigationBar extends StatelessWidget {
   const NavigationBar({Key key}) : super(key: key);
   @override
@@ -27,10 +28,16 @@ class NavigationBarMobile extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.menu),
             onPressed: () {
-              locator<NavigationService>().scaffoldKey.currentState.openDrawer();
+              locator<NavigationService>()
+                  .scaffoldKey
+                  .currentState
+                  .openDrawer();
             },
           ),
-          Text('RMJ',style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold),),
+          Text(
+            'RMJ',
+            style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+          ),
         ],
       ),
     );
@@ -46,7 +53,10 @@ class NavigationBarDesktop extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          Text('RMJ',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),),
+          Text(
+            'RMJ',
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          ),
           Row(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
@@ -63,8 +73,14 @@ class NavigationBarDesktop extends StatelessWidget {
 //                width: 40,
 //              ),
               Chip(
-                label: Text('+8801778743187',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 18),),
-                padding: EdgeInsets.symmetric(vertical: 10,horizontal: 15),
+                label: Text(
+                  '+8801778743187',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18),
+                ),
+                padding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
                 backgroundColor: Colors.green.shade800,
               )
             ],
@@ -75,7 +91,7 @@ class NavigationBarDesktop extends StatelessWidget {
   }
 }
 
-NavBarLogo(){
+NavBarLogo() {
   return FlutterLogo();
 }
 
@@ -90,20 +106,21 @@ class NavBarItem extends StatelessWidget {
       onTap: () {
         // DON'T EVER USE A SERVICE DIRECTLY IN THE UI TO CHANGE ANY KIND OF STATE
         // SERVICES SHOULD ONLY BE USED FROM A VIEWMODEL
-        if(locator<NavigationService>().scaffoldKey.currentState.isDrawerOpen){
+        if (locator<NavigationService>()
+            .scaffoldKey
+            .currentState
+            .isDrawerOpen) {
           locator<NavigationService>().goBack();
         }
         locator<NavigationService>().navigateTo(navigationPath);
-
       },
       child: Text(
         title,
-        style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),
+        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
       ),
     );
   }
 }
-
 
 class DrawerItem extends StatelessWidget {
   final String title;
@@ -136,16 +153,14 @@ class NavigationDrawer extends StatelessWidget {
       child: Column(
         children: <Widget>[
           NavigationDrawerHeader(),
-          DrawerItem('Home', Icons.home,HomeRoute),
-          DrawerItem('Apps', Icons.apps,AppsRoute),
+          DrawerItem('Home', Icons.home, HomeRoute),
+          DrawerItem('Apps', Icons.apps, AppsRoute),
 //          DrawerItem('About', Icons.help,AboutRoute),
         ],
       ),
     );
   }
 }
-
-
 
 class NavigationDrawerHeader extends StatelessWidget {
   const NavigationDrawerHeader({Key key}) : super(key: key);
@@ -175,4 +190,3 @@ class NavigationDrawerHeader extends StatelessWidget {
     );
   }
 }
-

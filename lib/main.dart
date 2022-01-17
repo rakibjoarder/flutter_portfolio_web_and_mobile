@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio_web/locator.dart';
+import 'package:flutter_portfolio_web/routing/route_names.dart';
 import 'package:flutter_portfolio_web/routing/routes.dart';
 import 'package:flutter_portfolio_web/services/navigation_service.dart';
-import 'package:flutter_portfolio_web/views/navigation_bar.dart';
+import 'package:flutter_portfolio_web/views/navigation_bar.dart' as nav;
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:flutter_portfolio_web/routing/route_names.dart';
-void main(){
+
+void main() {
   setupLocator();
   runApp(MyApp());
 }
@@ -21,7 +22,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class LayoutTemplate extends StatelessWidget {
   const LayoutTemplate({Key key}) : super(key: key);
 
@@ -30,13 +30,13 @@ class LayoutTemplate extends StatelessWidget {
     return ResponsiveBuilder(
       builder: (context, sizingInformation) => Scaffold(
         key: locator<NavigationService>().scaffoldKey,
-        drawer: sizingInformation.deviceScreenType == DeviceScreenType.Mobile
-            ? NavigationDrawer()
+        drawer: sizingInformation.deviceScreenType == DeviceScreenType.mobile
+            ? nav.NavigationDrawer()
             : null,
         backgroundColor: Colors.white,
         body: Column(
           children: <Widget>[
-            NavigationBar(),
+            nav.NavigationBar(),
             Expanded(
               child: Navigator(
                 key: locator<NavigationService>().navigatorKey,
@@ -50,13 +50,3 @@ class LayoutTemplate extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-

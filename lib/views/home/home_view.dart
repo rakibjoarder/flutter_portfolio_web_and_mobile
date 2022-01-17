@@ -102,7 +102,7 @@ class AboutMe extends StatelessWidget {
               height: 18,
             ),
             Text(
-              'Senior Software Engineer & Flutter Expert',
+              'UI/UX Software Developer',
               style: TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: descriptionSize + 2,
@@ -113,7 +113,7 @@ class AboutMe extends StatelessWidget {
               height: 15,
             ),
             Text(
-              "Hi, I am Rakib Mamun Joarder, Computer Science & Engineering graduate. I am a software engineer with 4 years of experience. Specialist in Mobile Application & Web Application development. I have experience in Flutter, Dart, Android, PHP(CodeIgniter), Nodejs. I try my best to satisfy my client & deliver the best quality app at the specified time. Please feel free to contact me with any questions, I'll be happy to further explain to you about my service.",
+              "Hi, I am Rakib Mamun Joarder, Computer Science & Engineering graduate. I am a software engineer with 4+ years of experience. Specialist in Mobile Application & Web Application development. I have experience in Flutter, Dart, Android, iOS, Nodejs, Svelte, SvelteKit, Tailwind Css. I try my best to satisfy my client & deliver the best quality app at the specified time. Please feel free to contact me with any questions, I'll be happy to further explain to you about my service.",
               style: TextStyle(
                 fontSize: descriptionSize,
                 height: 1.7,
